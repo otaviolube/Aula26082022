@@ -1,65 +1,48 @@
+
 *{
     margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
 
 header{
-    height: 200px;
-    width: 100%;
-    background-color: aqua;
+    height: 400px;
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    background-image: url('./imgs/backgound.jpg');
-    background-repeat: repeat-x;
-
-}
-
-nav{
-    max-height: 50px;
-    background-color: green;
-}
-
-main{
-    background-color: antiquewhite;
-}
-
-footer{
-    height: 25px;
-    background-color: brown;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
+    justify-content: space-evenly;
+    background-color: blueviolet;
 }
 
 img#hero{
-    width: 120px;
-    border-radius: 50%;
-    margin-right: 30px;
+    width: 200px;
+    border-radius: 100%;
+    margin: 10px 0px 10px 0px;
 }
 
-h1#title{
-    font-family: 'DynaPuff', cursive;
+h1#hero{
+    color: white;
+    font-size: 50px;
+    font-family: 'Silkscreen', cursive;
+}
+
+nav{
+    background-color: blueviolet;
 }
 
 ul{
-    list-style: none;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    list-style: armenian;
 }
 
-ul li{
-    margin: 10px;
-    font-family: 'DynaPuff', cursive;
-}
-
-ul li a{
+li a{
+    font-family: 'Silkscreen', cursive;
+    font-size: 30px;
     text-decoration: none;
-    color: black;
+    color: white;
+    width: 100%;
 }
 
-ul li a:hover{
-    color: orange;
+li a:hover{
+    color: green;
 }
