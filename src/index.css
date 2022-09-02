@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+}
+
+img#hero{
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+h1#hero{
+    font-family: 'Lobster', cursive;
+}
